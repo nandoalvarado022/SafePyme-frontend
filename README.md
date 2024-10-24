@@ -1,27 +1,17 @@
-# Myapp
+# SafePyme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+Una aplicación web de SOC en la nube está diseñada para pequeñas y medianas empresas (PYMES) que buscan proteger sus activos digitales de amenazas cibernéticas, sin tener que invertir en infraestructuras costosas. Utilizando herramientas de código abierto integradas con la nube pública de AWS, esta solución permite la monitorización, detección y respuesta ante incidentes de seguridad de manera eficiente y accesible.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Problema que Resuelve
 
-## Code scaffolding
+En un entorno digital cada vez más amenazado por el cibercrimen, las pequeñas empresas suelen estar en desventaja por la falta de recursos para implementar soluciones de seguridad avanzadas. Nuestra aplicación SOC en la nube aborda este problema ofreciendo una solución económica y fácil de implementar que brinda capacidades de seguridad de nivel empresarial, adaptada a las necesidades de las PYMES.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Características y Funcionalidades Únicas
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Monitoreo en tiempo real de eventos de seguridad a través de la nube.
+Integración de herramientas de código abierto como SIEM (Security Information and Event Management) y EDR (Endpoint Detection and Response).
+Escalabilidad automática utilizando la infraestructura de AWS para gestionar diferentes volúmenes de datos sin comprometer el rendimiento.
+Alertas automatizadas y respuestas ante incidentes cibernéticos.
+Panel de control intuitivo que permite a las empresas monitorear su seguridad sin necesidad de conocimientos técnicos avanzados.
+Implementación rápida con mínimas configuraciones, permitiendo a las empresas comenzar a proteger sus sistemas de inmediato.
