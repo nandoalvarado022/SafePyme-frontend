@@ -1,0 +1,163 @@
+<nav
+  class="navbar navbar-expand-lg fixed-top navbar-transparent"
+  color-on-scroll="100"
+  id="navbar-top"
+>
+  <div class="container">
+    <div class="navbar-translate">
+      <a
+        class="navbar-brand"
+        placement="bottom"
+        tooltip="Secure Your Business with SafePyme"
+      >
+        <span> SafePyme </span> Cloud SOC Solution
+      </a>
+      <button
+        aria-controls="navigation-index"
+        aria-label="Toggle navigation"
+        class="navbar-toggler navbar-toggler"
+        [attr.aria-expanded]="!isCollapsed"
+        (click)="isCollapsed = !isCollapsed"
+        id="navigation"
+        type="button"
+      >
+        <span class="navbar-toggler-bar bar1"> </span>
+        <span class="navbar-toggler-bar bar2"> </span>
+        <span class="navbar-toggler-bar bar3"> </span>
+      </button>
+    </div>
+    <div
+      class="navbar-collapse justify-content-end"
+      
+      id="navigation"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="wrapper">
+  <div class="page-header">
+    <div class="content-center">
+      <div
+        class="row row-grid justify-content-between align-items-center text-left"
+      >
+        <div class="col-lg-6 col-md-6">
+          <h1 class="text-white">
+            Protect Your Business with <span class="text-primary">SafePyme</span>
+          </h1>
+          <p class="text-white mb-3">
+            SafePyme is your comprehensive cloud-based Security Operations Center
+            solution, designed to secure small businesses with real-time threat
+            detection and response.
+          </p>
+          <a
+            class="btn btn-primary btn-lg"
+            href="#get-started"
+            role="button"
+          >Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="features" class="section section-lg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-6">
+          <div class="info">
+            <div class="icon icon-primary">
+              <i class="tim-icons icon-shield"></i>
+            </div>
+            <h4 class="info-title">Real-Time Monitoring</h4>
+            <p>
+              Gain continuous visibility and immediate alerts on security threats
+              with our integrated SIEM and IDS solutions.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="info">
+            <div class="icon icon-warning">
+              <i class="tim-icons icon-chart-bar-32"></i>
+            </div>
+            <h4 class="info-title">Scalable & Cost-Efficient</h4>
+            <p>
+              Affordable monthly plans tailored for small businesses to help you
+              achieve robust security without breaking the bank.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="info">
+            <div class="icon icon-success">
+              <i class="tim-icons icon-support-17"></i>
+            </div>
+            <h4 class="info-title">24/7 Support</h4>
+            <p>
+              Our team of security experts is available round-the-clock to assist
+              you with any security incidents or inquiries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section section-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-plain">
+            <div class="card-header">
+              <h4 class="text-uppercase">Basic</h4>
+              <p>Ideal for startups</p>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">Basic Threat Detection</li>
+                <li class="list-group-item">Email Alerts</li>
+                <li class="list-group-item">Limited Log Storage</li>
+              </ul>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-primary btn-simple">Choose Plan</button>
+            </div>
+          </div>
+        </div>
+        <!-- Additional pricing plans go here -->
+      </div>
+    </div>
+  </section>
+</div>
+<footer id="contact" class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"><h1 class="title">SafePyme</h1></div>
+      <div class="col-md-3">
+        <h3 class="title">Contact Us</h3>
+        <p>Email: supportm</p>
+        <p>Phone: +1 (555) 123-4567</p>
+      </div>
+      <div class="col-md-3">
+        <h3 class="title">Follow Us</h3>
+        <a href="#" class="btn btn-icon btn-neutral btn-round btn-simple">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="btn btn-icon btn-neutral btn-round btn-simple">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
